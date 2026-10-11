@@ -1,0 +1,198 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/profile1.jpg" 
+      },
+      "image": "src/assets/post1.jpg",
+      "caption": "Peace, beauty, and unforgettable moments 🌊✨",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        },
+        {
+          "user": "sarah_j",
+          "comment": "Absolutely beautiful ❤️"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "alice_wonder",
+        "profile_pic": "src/assets/profile2.jpg"
+      },
+      "image": "src/assets/post2.jpg",
+      "caption": "crowd gathers as Vijay visits the Murugan temple🙏✨",
+      "likes": 245,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Great picture! 🔥"
+        },
+        {
+          "user": "travel_guy",
+          "comment": "This looks amazing!"
+        }
+      ],
+      "timestamp": "2025-02-12T09:15:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "travel_guy",
+        "profile_pic": "src/assets/profile3.jpg"
+      },
+      "image": "src/assets/post3.jpg",
+      "caption": "Play hard, dream big, never stop!",
+      "likes": 389,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Have a safe journey! ❤️"
+        },
+        {
+          "user": "john_doe",
+          "comment": "Adding this place to my bucket list 🔥"
+        }
+      ],
+      "timestamp": "2025-02-13T16:45:00Z"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "sarah_j",
+        "profile_pic": "src/assets/profile4.jpg"
+      },
+      "image": "src/assets/post4.jpg",
+      "caption": "Elegance on four wheels ",
+      "likes": 178,
+      "comments": [
+        {
+          "user": "mark_92",
+          "comment": "So peaceful!"
+        },
+        {
+          "user": "john_doe",
+          "comment": "Nature is always beautiful 🌱"
+        }
+      ],
+      "timestamp": "2025-02-14T11:20:00Z"
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 105,
+        "username": "mark_92",
+        "profile_pic": "src/assets/profile5.jpg"
+      },
+      "image": "src/assets/post5.jpg",
+      "caption": "A beautiful view filled with culture and tradition 🙏✨",
+      "likes": 312,
+      "comments": [
+        {
+          "user": "sarah_j",
+          "comment": "The lights look incredible 😍"
+        },
+        {
+          "user": "alice_wonder",
+          "comment": "Love this view!"
+        }
+      ],
+      "timestamp": "2025-02-15T20:10:00Z"
+    }
+  ],
+  "profile":{
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/profile1.jpg" 
+      },
+      "suggestions":[
+        {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/profile1.jpg" 
+      },
+      {
+        "id": 102,
+        "username": "alice_wonder",
+        "profile_pic": "src/assets/profile2.jpg"
+      },
+      {
+        "id": 103,
+        "username": "travel_guy",
+        "profile_pic": "src/assets/profile3.jpg"
+      },
+      {
+        "id": 104,
+        "username": "sarah_j",
+        "profile_pic": "src/assets/profile4.jpg"
+      },
+      {
+        "id": 105,
+        "username": "mark_92",
+        "profile_pic": "src/assets/profile5.jpg"
+      }
+
+      ],
+      "story": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/profile1.jpg" 
+      },
+      "image": "/src/assets/story1.jpg"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "alice_wonder",
+        "profile_pic": "src/assets/profile2.jpg"
+      },
+      "image": "/src/assets/story2.jpg"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "travel_guy",
+        "profile_pic": "src/assets/profile3.jpg"
+      },
+      "image": "/src/assets/story3.jpg"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "sarah_j",
+        "profile_pic": "src/assets/profile4.jpg"
+      },
+      "image": "/src/assets/story4.jpg"
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 105,
+        "username": "mark_92",
+        "profile_pic": "src/assets/profile5.jpg"
+      },
+      "image": "/src/assets/story5.jpg"
+    }
+  ]
+}
